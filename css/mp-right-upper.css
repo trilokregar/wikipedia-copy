@@ -1,0 +1,20 @@
+.mw-parser-output #mp-right {
+    padding: 0;
+    vertical-align: top;
+    width: 45%;
+    border-color: #cedff2;
+    background: #f5faff;
+}
+
+.mw-parser-output #mp-upper .mid-table {
+    border-color: transparent;
+}
+
+.mw-parser-output #mp-right .mp-h2 {
+    background: #cedff2;
+    border-color: #a3b0bf;
+}
+
+.mw-parser-output #mp-itn {
+    padding: 0.1em 0.6em;
+}

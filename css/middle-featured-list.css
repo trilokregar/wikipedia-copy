@@ -1,0 +1,16 @@
+.mw-parser-output #mp-middle {
+    overflow: auto;
+    margin-top: 4px;
+    border-color: #f2cedd;
+    background: #fff5fa;
+    white-space: initial;
+}
+
+.mw-parser-output #mp-tfl-h2 {
+    background: #f2cedd;
+    border-color: #bfa3af;
+}
+
+.mw-parser-output #mp-tfl {
+    padding: 0.3em 0.7em;
+}

@@ -1,0 +1,83 @@
+.mw-parser-output #mp-upper {
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 0;
+    border-spacing: 0;
+    border-collapse: separate;
+}
+
+table {
+    font-size: 100%;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: inline-flex;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.mw-parser-output #mp-left {
+    padding: 0;
+    vertical-align: top;
+    width: 55%;
+    border-color: #cef2e0;
+    background: #f5fffa;
+    color: #000;
+}
+
+.mw-parser-output #mp-left .mp-h2 {
+    background: #cef2e0;
+    border-color: #a3bfb1;
+}
+
+.mw-parser-output .mp-h2 {
+    margin: 0.5em;
+    padding: 0.2em 0.4em;
+    font-size: 120%;
+    font-weight: bold;
+    font-family: inherit;
+    color: #000;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.mw-parser-output #mp-tfa {
+    padding: 0.1em 0.6em;
+}
+
+div.thumbinner {
+    border: 1px solid #c8ccd1;
+    padding: 3px;
+    background-color: #f8f9fa;
+    font-size: 94%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.thumbinner {
+    min-width: 100px;
+}
+
+.vector-body p {
+    margin: 0.5em 0;
+}
+
+.hlist.inline {
+    display: inline;
+}
+
+.hlist ul {
+    margin: 0;
+    padding: 0;
+}
+
+.hlist li {
+    margin: 0;
+    display: inline;
+}

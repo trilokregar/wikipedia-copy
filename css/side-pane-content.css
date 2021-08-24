@@ -1,0 +1,98 @@
+@media screen and (min-width: 982px) {
+    #mw-panel {
+        padding-left: 0.5em;
+    }
+}
+
+#mw-panel {
+    font-size: inherit;
+    position: absolute;
+    top: 0;
+    width: 10em;
+    left: 0;
+}
+
+#p-logo {
+    width: 10em;
+    height: 160px;
+    margin-bottom: 1em;
+}
+
+#p-logo a {
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+    width: 10em;
+    height: 160px;
+    text-decoration: none;
+}
+
+.mw-wiki-logo {
+    background-image: url('../img/wiki-logo.png');
+}
+
+.vector-menu-portal {
+    margin: 0 0.6em 0 0.7em;
+    padding: 0.25em 0;
+    direction: ltr;
+}
+
+#p-logo+.mw-portlet h3 {
+    display: none;
+}
+
+.vector-menu-portal h3 {
+    display: block;
+    background-image: url(/w/skins/Vector/resources/common/images/portal-separator.png?4ab04);
+    background-image: linear-gradient(to right, rgba(200, 204, 209, 0) 0, #c8ccd1 33%, #c8ccd1 66%, rgba(200, 204, 209, 0) 100%);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+    color: #54595d;
+    margin: 0.5em 0 0 0.66666667em;
+    border: 0;
+    padding: 0.25em 0;
+    font-size: 0.75em;
+    font-weight: normal;
+    cursor: default;
+}
+
+.vector-menu-portal .vector-menu-content {
+    margin-left: 0.5em;
+    padding-top: 0;
+}
+
+.vector-menu-portal .vector-menu-content ul {
+    list-style: none none;
+    margin: 0;
+    padding-top: 0.3em;
+}
+
+.vector-menu-portal .vector-menu-content li {
+    margin: 0;
+    padding: 0.25em 0;
+    font-size: 0.75em;
+    line-height: 1.125em;
+    word-wrap: break-word;
+}
+
+.vector-menu-portal .vector-menu-content li a {
+    color: #0645ad;
+}
+
+.vector-menu-portal .vector-menu-content li a:visited {
+    color: #0b0080;
+}
+
+.skin-vector #p-lang .uls-settings-trigger {
+    margin-top: 8px;
+}
+
+#p-lang .uls-settings-trigger {
+    background: transparent url('../img/lang-selector.svg') no-repeat center top;
+    border: 0;
+    min-height: 16px;
+    min-width: 16px;
+    float: right;
+    cursor: pointer;
+}

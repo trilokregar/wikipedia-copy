@@ -1,0 +1,79 @@
+.mw-parser-output #mp-topbanner {
+    position: relative;
+    box-sizing: border-box;
+    min-width: 47em;
+    border-color: #ddd;
+    background-color: #f9f9f9;
+    white-space: nowrap;
+    color: #000;
+}
+
+.mw-parser-output .mp-bordered {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.mw-parser-output #mp-welcomecount {
+    margin: 0.4em;
+    width: 22em;
+    text-align: center;
+}
+
+.mw-parser-output #mp-welcome {
+    font-size: 162%;
+    padding: 0.1em;
+}
+
+.mw-parser-output #mp-free {
+    font-size: 95%;
+}
+
+.mw-parser-output #articlecount {
+    font-size: 85%;
+}
+
+.mw-parser-output #mp-portals {
+    position: absolute;
+    right: -1em;
+    top: 50%;
+    margin-top: -2.4em;
+    width: 38%;
+    min-width: 25em;
+    font-size: 95%;
+}
+
+.mw-content-ltr ul,
+ul {
+    margin: 0.3em 0 0 1.6em;
+    padding: 0;
+}
+
+ul {
+    list-style-image: url('../img/bullet-icon.svg');
+}
+
+.mw-parser-output #mp-portals .portal-vmid {
+    top: 1.6em;
+}
+
+.mw-parser-output #mp-portals li {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+li {
+    margin-bottom: 0.1em;
+}
+
+.mw-parser-output #mp-portals .portal-vbot {
+    top: 3.2em;
+}
+
+.mw-parser-output #mp-portals .portal-hmid {
+    left: 33%;
+}
+
+.mw-parser-output #mp-portals .portal-hright {
+    left: 66%;
+}
