@@ -10,7 +10,8 @@ table {
     font-size: 100%;
 }
 
-tbody {
+
+/* tbody {
     display: table-row-group;
     vertical-align: middle;
     border-color: inherit;
@@ -20,7 +21,7 @@ tr {
     display: inline-flex;
     vertical-align: inherit;
     border-color: inherit;
-}
+} */
 
 .mw-parser-output #mp-left {
     padding: 0;
