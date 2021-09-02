@@ -108,10 +108,6 @@
         white-space: nowrap;
     }
     
-    .hlist.inline {
-        display: inline;
-    }
-    
     #mw-content-text.mw-body-content .mw-parser-output #mp-other-lower.mp-bordered {
         white-space: initial;
     }

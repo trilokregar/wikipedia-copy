@@ -18,3 +18,7 @@
 .mw-parser-output #mp-itn {
     padding: 0.1em 0.6em;
 }
+
+.hlist.inline ul {
+    display: inline;
+}

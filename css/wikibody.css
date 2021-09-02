@@ -130,6 +130,11 @@ a:visited {
     color: #0b0080;
 }
 
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
 strong,
 b {
     font-weight: bold;

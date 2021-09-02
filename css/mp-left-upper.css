@@ -10,19 +10,6 @@ table {
     font-size: 100%;
 }
 
-
-/* tbody {
-    display: table-row-group;
-    vertical-align: middle;
-    border-color: inherit;
-}
-
-tr {
-    display: inline-flex;
-    vertical-align: inherit;
-    border-color: inherit;
-} */
-
 .mw-parser-output #mp-left {
     padding: 0;
     vertical-align: top;
@@ -81,4 +68,18 @@ div.thumbinner {
 .hlist li {
     margin: 0;
     display: inline;
+}
+
+.hlist dd:after,
+.hlist li:after {
+    content: " · ";
+    font-weight: bold;
+}
+
+.hlist ul li:last-child::after {
+    content: '';
+}
+
+.nourlexpansion ul li:last-child::after {
+    content: '';
 }

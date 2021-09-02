@@ -84,7 +84,11 @@
     color: #0b0080;
 }
 
-.skin-vector #p-lang .uls-settings-trigger {
+.vector-menu-portal .vector-menu-content li#n-mainpage-description a {
+    color: #0b0080;
+}
+
+#p-lang .uls-settings-trigger {
     margin-top: 8px;
 }
 

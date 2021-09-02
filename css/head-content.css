@@ -187,6 +187,13 @@ h5 {
     line-height: 1.125em;
 }
 
+.vector-menu-dropdown li {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    line-height: 1em;
+}
+
 :not(:checked)>.vector-menu-checkbox {
     display: block;
 }
@@ -206,6 +213,7 @@ h5 {
 }
 
 #mw-head .vector-menu-dropdown h3 {
+    background-image: url(/w/skins/Vector/resources/common/images/tab-separator.png?09d4b);
     background-image: linear-gradient(to bottom, rgba(167, 215, 249, 0) 0, #a7d7f9 100%);
     background-repeat: no-repeat;
     background-size: 1px 100%;
@@ -217,6 +225,23 @@ h5 {
     height: 3.07692308em;
     margin: 0 -1px 0 0;
     padding-right: 1.84615385em;
+}
+
+.vector-menu-dropdown h3:after {
+    content: '';
+    background-image: url(/img/arrow-down.svg);
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0.76923077em;
+    right: 8px;
+    bottom: 0;
+    width: 1.23076923em;
+    opacity: 0.84;
+}
+
+.vector-menu-dropdown:not(.vector-user-menu) li {
+    font-size: 0.8125em;
 }
 
 .vector-menu-dropdown h3:not(.mw-ui-icon) {
